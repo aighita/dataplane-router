@@ -302,7 +302,7 @@ class FullNM(object):
 
         time.sleep(info.TIMEOUT)
         self.teardown_capture(testname, log)
-
+        time.sleep(5)
         results = {}
         for hp in range(len(self.hosts)):
             lout = os.path.join(log, info.get("output_file", hp))
