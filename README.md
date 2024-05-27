@@ -44,9 +44,3 @@ The `main` function initializes the router, reads the routing table, creates que
 - `comparePrefix`: Compares two routing table entries by prefix and mask.
 - `get_best_route`: Finds the best route for a given IP address.
 - `get_arp_table_entry`: Finds an ARP table entry for a given IP address.
-
-## Compilation
-
-Compile the router program using the following command:
-```sh
-gcc -o router router.c
